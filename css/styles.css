@@ -1,0 +1,192 @@
+body {
+	font-family: Montserrate-black;
+	text-align: center;
+
+}
+
+h1, h2, h3{
+	font-family: Montserrat;
+}
+
+
+/*Section*/
+.colored-section{
+	background-color: #ff4c68;
+	color: #fff;
+}
+.white-section{
+	background-color: #fff;
+}
+
+
+
+
+.section-heading{
+	font-size: 2.5rem;
+	line-height: 1.5;
+
+}
+.container-fluid {
+	padding: 7% 15%
+}
+
+/*Navigation bar*/
+
+.navbar {
+	padding-bottom: 4.5rem;
+	padding-left: 0;
+}
+.navbar-brand {
+	font-family: ubuntu;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: 'Montserrate-light'
+}
+
+/*Download Button*/
+
+.downlaod-button {
+	margin: 5% 3% 5% 0;
+}
+
+/*Title-section*/
+.big-heading{
+	font-family: Montserrat;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	
+}
+
+#title .container-fluid{
+	padding: 3% 15% ;
+	text-align: left;
+}
+.align-titletext{
+	text-align: left;
+}
+
+
+#title-image {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 33%;
+}
+
+/*Features section*/
+
+#features {
+	padding: 5.5rem 0;
+	position: relative;
+
+}
+.feature-title {
+	color: #161B1E;
+	font-size: 1.5rem;
+	
+}
+p {
+	color: #959595;
+	font-size: 1.3rem;
+}
+.icon {
+	color: #EF8172;
+	padding-bottom: 1rem;
+}
+.icon:hover {
+	color: #ff4c68;
+}
+
+/*testimonial section*/
+
+#testimonials {
+	
+	background-color: #ef8172;
+	
+	/*	just like container fluid for the prev section padding only that we didnt include a container fluid for thsi sction*/
+}
+.textimonial-image {
+	border-radius: 100%;
+	width: 15%;
+	margin: 7%;
+}
+.testimonial-text {
+	
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+
+/*press section*/
+
+#press {
+	background-color: #ef8172;
+	padding: 0% 15% 3% 15%;
+	
+}
+.image-press {
+	width: 18%;
+	margin-right: 20px;
+}
+
+/*pricing section*/
+
+#pricing {
+	padding: 100px;
+	
+}
+.pricing-column {
+	padding: 3% 2%;
+}
+.pricing-text{
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+.pricing-h3{
+	color: #161B1E;
+	font-size: 1.5rem;
+	
+}
+
+
+/*CTA SECTION*/
+
+.cta-heading {
+	font-family: Montserrat;
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+/*Footer*/
+
+
+.social-icon {
+	margin: 20px 10px;
+}
+/*media quary*/
+
+@media screen and (max-width:1028px) {
+	#title-image {
+		position: static;
+		transform: rotate(0);
+	}
+	.titlecenter {
+		text-align: center;
+	}
+}
+
+
+
+
+font-family: 'Modak',
+cursive;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Ubuntu Mono',
+monospace
